@@ -80,7 +80,7 @@ function transformBabelLoader(loader, pluginOptions) {
 				},
 			},
 			{
-				loader: 'linaria/loader',
+				loader: '@linaria/webpack-loader',
 				options: {
 					cacheDirectory: 'src/.linaria_cache',
 					sourceMap: process.env.NODE_ENV !== 'production',
